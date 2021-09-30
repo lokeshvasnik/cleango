@@ -1,0 +1,161 @@
+#colcontainer {
+    height: 184vh;
+    margin: 24px 6px;
+}
+
+.containerfoot {
+    height: 150vh;
+}
+
+.p-primary {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p-primary {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.flex1 {
+    display: flex;
+    height: 50vh;
+    width: 49vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerfoot {
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    margin: 12px;
+    width: 21vw;
+    margin: 8px 22px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 200px;
+}
+
+#contact1 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.container,
+.container-md,
+.container-sm {
+    max-width: 98%;
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    width: 93vw;
+    height: 29vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.services {
+    margin: 34px;
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+}
+
+.services .box {
+    padding: 34px 11px;
+    margin: 12px 21px;
+    border-radius: 23px;
+    transition: 1s;
+}
+
+#reviewcontainer {
+    display: flex;
+    background-color: rgb(235, 225, 207);
+    border-radius: 12px;
+    height: 50vh;
+    margin: 24px 9px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.reviewimg {
+    width: 100px;
+    height: 100px;
+}
+
+.mx-2 {
+    margin: 2px 2px;
+    padding: 4px 2px;
+}
+
+.btn-outline-success {
+    border-radius: 21px;
+}
+
+.me-2 {
+    border-radius: 31px;
+    padding: 6px 3px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info img {
+    width: 200px;
+}
+
+.info1 img {
+    width: 200px;
+}
+
+
+/* Utility classes  */
+
+.i-primary {
+    font-family: Nunito Sans, Arial, sans-serif;
+    font-feature-settings: "lnum";
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-transform: none;
+}
+
+.g-primary {
+    font-family: Nunito Sans, Arial, sans-serif;
+    font-feature-settings: "lnum";
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: normal;
+    line-height: 37px;
+    text-transform: none;
+}
